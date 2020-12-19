@@ -23,7 +23,7 @@ export default function App() {
           </a>
           <a
             className="frame__link"
-            href="https://github.com/isengupt/webgl-click"
+            href="https://github.com/isengupt/webgl-click/"
           >
             GitHub
           </a>
