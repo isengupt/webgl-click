@@ -7,7 +7,7 @@ import t from "./img/img4.jpg";
 import t1 from "./img/img3.jpg";
 
 import * as THREE from "three";
-//import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
+
 import { EffectComposer } from "three/examples/jsm/postprocessing/EffectComposer";
 import { RenderPass } from "three/examples/jsm/postprocessing/RenderPass";
 import { UnrealBloomPass } from "three/examples/jsm/postprocessing/UnrealBloomPass";
@@ -28,10 +28,7 @@ class Backdrop extends Component {
     };
   }
 
-  componentDidUpdate(prevProps) {
-    
 
-  }
 
   componentDidMount() {
     this.renderer = new THREE.WebGLRenderer();
@@ -66,10 +63,7 @@ class Backdrop extends Component {
     this.init();
 
     this.mount.addEventListener("click", () => {
-      /*    gsap.to(this.vid, {
-        duration: 0.1,
-        opacity: 0,
-      }); */
+    
       gsap.to(this.material.uniforms.distortion, {
         duration: 2,
         value: 2,
@@ -98,15 +92,8 @@ class Backdrop extends Component {
         strength: 0,
         delay: 2,
         ease: "power2.out",
-        /*   onComplete: () => {
-          this.video.currentTime = 0;
-
-          this.video.play();
-          gsap.to(this.video, {
-            duration: 0.1,
-            opacity: 1,
-          });
-        }, */
+       
+     
       });
     });
   }
@@ -142,9 +129,9 @@ class Backdrop extends Component {
     this.material = new THREE.ShaderMaterial({
       fragmentShader: fragment,
       vertexShader: vertex,
-      /*   extensions: {
+         extensions: {
         derivatives: "#extension GL_OES_standard_derivatives: enable",
-      }, */
+      }, 
       uniforms: {
         time: { type: "f", value: 0 },
 
@@ -160,14 +147,7 @@ class Backdrop extends Component {
       side: THREE.DoubleSide,
     });
 
-    /*   this.geometry = new THREE.PlaneBufferGeometry(
-      480 * 1.75,
-      820 * 1.75,
-      480,
-      820
-    ); */
-
-    //1920 × 1272
+   
 
     this.geometry = new THREE.PlaneBufferGeometry(1920, 1280, 960, 640);
 
@@ -235,18 +215,11 @@ class Backdrop extends Component {
   }
 
   render() {
-    //const { data } = this.state;
+
 
     return (
       <>
-        {/*    <div className="video">
-          <video
-            src={vid2}
-            autoPlay
-            muted
-            ref={(ref) => (this.vid = ref)}
-          ></video>
-        </div> */}
+       
         <div id="container" ref={(ref) => (this.mount = ref)} />
       </>
     );
