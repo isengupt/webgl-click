@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/webgl-click/static/css/main.0b4b2422.chunk.css",
-    "main.js": "/webgl-click/static/js/main.8a381375.chunk.js",
-    "main.js.map": "/webgl-click/static/js/main.8a381375.chunk.js.map",
+    "main.js": "/webgl-click/static/js/main.671aa864.chunk.js",
+    "main.js.map": "/webgl-click/static/js/main.671aa864.chunk.js.map",
     "runtime-main.js": "/webgl-click/static/js/runtime-main.7522cfec.js",
     "runtime-main.js.map": "/webgl-click/static/js/runtime-main.7522cfec.js.map",
-    "static/js/2.22148d92.chunk.js": "/webgl-click/static/js/2.22148d92.chunk.js",
-    "static/js/2.22148d92.chunk.js.map": "/webgl-click/static/js/2.22148d92.chunk.js.map",
+    "static/js/2.57557603.chunk.js": "/webgl-click/static/js/2.57557603.chunk.js",
+    "static/js/2.57557603.chunk.js.map": "/webgl-click/static/js/2.57557603.chunk.js.map",
     "index.html": "/webgl-click/index.html",
     "static/css/main.0b4b2422.chunk.css.map": "/webgl-click/static/css/main.0b4b2422.chunk.css.map",
-    "static/js/2.22148d92.chunk.js.LICENSE.txt": "/webgl-click/static/js/2.22148d92.chunk.js.LICENSE.txt",
+    "static/js/2.57557603.chunk.js.LICENSE.txt": "/webgl-click/static/js/2.57557603.chunk.js.LICENSE.txt",
     "static/media/img3.1d24b7c4.jpg": "/webgl-click/static/media/img3.1d24b7c4.jpg",
     "static/media/img4.a5bf396c.jpg": "/webgl-click/static/media/img4.a5bf396c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7522cfec.js",
-    "static/js/2.22148d92.chunk.js",
+    "static/js/2.57557603.chunk.js",
     "static/css/main.0b4b2422.chunk.css",
-    "static/js/main.8a381375.chunk.js"
+    "static/js/main.671aa864.chunk.js"
   ]
 }
